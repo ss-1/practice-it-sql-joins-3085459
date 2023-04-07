@@ -28,3 +28,14 @@ Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learn
 [lil-course-url]: https://www.linkedin.com/learning/practice-it-sql-joins
 [gcs-video-url]: https://www.linkedin.com/learning/practice-it-sql-joins/getting-started-with-github-codespaces
 
+
+6. SQL Commands>
+sqlite> .open AdventureWorks.db
+sqlite> .mode html
+sqlite> .header on
+sqlite> .output adventureworks_docs.html
+sqlite> .tables
+sqlite> select "Number of rows in DimCustomer";
+sqlite> select count(1) from DimCustomer;
+sqlite> select * from sqlite_master where name = 'DimCustomer';
+sqlite> select sql from sqlite_master where name = 'DimCustomer';
